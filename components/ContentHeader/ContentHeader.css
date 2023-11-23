@@ -1,0 +1,20 @@
+.ContentHeader {
+    padding-inline: 450px;
+}
+
+.ContentHeader > h1 {
+    font-family: "poppinsBold", Arial, Helvetica, sans-serif;
+}
+
+.ContentHeader > h1 > span {
+    color: #90a0d9;
+}
+
+.ContentHeader > h2 {
+    padding-block: 16px;
+    font-family: "poppinsBold", Arial, Helvetica, sans-serif;
+}
+
+.ContentHeader Button {
+    margin-block: 16px;
+}

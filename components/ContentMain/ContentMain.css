@@ -1,0 +1,28 @@
+.ContentMain {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.358);
+    padding: 24px;
+    top: 0px;
+    transition: all 0.25s ease;
+    position: relative;
+}
+
+.ContentMain:hover {
+    top: -5px;
+}
+
+.ContentMain > h3 {
+    font-family: "poppinsBold", Arial, Helvetica, sans-serif;
+}
+
+.ContentMain > p {
+    padding: 16px;
+}
+
+.ContentMain ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+    justify-content: center;
+    padding: 16px;
+    font-family: "poppinsBold", Arial, Helvetica, sans-serif;
+}

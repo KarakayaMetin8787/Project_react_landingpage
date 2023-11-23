@@ -1,0 +1,22 @@
+.Main {
+    grid-column: 2/3;
+}
+
+.Main h2 {
+    font-family: "poppinsBold", Arial, Helvetica, sans-serif;
+    padding-block: 24px;
+}
+
+.Main article {
+    display: flex;
+    gap: 32px;
+}
+
+.Main > section {
+    margin: 0 auto;
+    width: 21%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}

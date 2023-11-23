@@ -1,0 +1,11 @@
+.SkillBoxes {
+    background-color: #2a2f4c;
+    padding: 8px;
+    top: 0px;
+    transition: all 0.25s ease;
+    position: relative;
+}
+
+.SkillBoxes:hover {
+    top: -5px;
+}
