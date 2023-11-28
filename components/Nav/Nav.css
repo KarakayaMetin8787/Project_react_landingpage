@@ -2,18 +2,19 @@
     display: flex;
     justify-content: space-between;
     height: 80px;
-    align-content: center;
+    align-items: center;
     padding-block: 16px;
 }
 
 .Nav > p {
     font-family: "poppinsBold", Arial, Helvetica, sans-serif;
-    color: #90a0d9;;
+    color: #90a0d9;
 }
 
 .Nav > ul {
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
 .Nav > ul > li {
@@ -38,6 +39,14 @@
     transition: width 0.25s ease;
 }
 
-.Nav > ul > li a:hover::after {
+.Nav > ul > li > a:hover::after {
     width: 100%;
+}
+
+.Nav > ul > a > svg {
+    width: 30px;
+}
+
+.Nav > ul > a > img {
+    width: 30px;
 }

@@ -1,3 +1,4 @@
+import Github from "../svg/Github";
 import "./ContentMain.css"
 
 const ContentMain = (props) => {

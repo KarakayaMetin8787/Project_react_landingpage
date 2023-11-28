@@ -21,7 +21,45 @@ body {
     font-family: "poppins", Arial, Helvetica, sans-serif ;
 }
 
-body > div {
+body > div > div{
     display: grid;
     grid-template-columns: 100px 1fr 100px;
+}
+
+.lightmode {
+    background-color: white;
+    color: #23283e;
+}
+
+.lightmode .ContentHeader > h1 > span {
+    color: #2978b5;
+}
+
+.lightmode .Nav > p {
+    color: #2978b5;
+}
+
+.lightmode .button {
+    border: 1px solid #2978b5;
+    color: #2978b5;
+    z-index: 1;
+
+}
+
+.lightmode .button::before {
+    background-color: #2978b5;
+    z-index: -1;
+
+}
+
+.lightmode .button:hover {
+    color: white;
+}
+
+.lightmode .Nav > ul > li a::after {
+    background-color: #2978b5;
+}
+
+.lightmode .Footer > p::after {
+    background-color: #2978b5;
 }
